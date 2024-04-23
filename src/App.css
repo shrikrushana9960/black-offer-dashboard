@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: orangered !important;
+  background-color: #fff;
+  border-color: none;
+}
+
+.nav-link{
+  color: black !important;
+}
+.nav-tabs {
+  border-bottom: none;
+}
+
+
+.nav-tabs .nav-link:hover{
+  color: gray
+}
+
+.tabsClass {
+  margin: 1vw 2vw;
+}
+
+.cardText {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+.cardDiv:hover{
+  border-radius: 20px;
+  background-color: lightgray;
+}
